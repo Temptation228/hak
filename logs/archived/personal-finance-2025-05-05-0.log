@@ -1,0 +1,131 @@
+2025-05-05 22:38:22,940 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-05-05 22:38:22,982 INFO  [restartedMain] c.b.p.PersonalFinanceApplication - Starting PersonalFinanceApplication using Java 23 with PID 8244 (C:\Users\Арсений\Desktop\hak\target\classes started by Arseniy in C:\Users\Арсений\Desktop\hak)
+2025-05-05 22:38:22,982 DEBUG [restartedMain] c.b.p.PersonalFinanceApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-05-05 22:38:22,983 INFO  [restartedMain] c.b.p.PersonalFinanceApplication - The following 1 profile is active: "dev"
+2025-05-05 22:38:23,042 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-05 22:38:23,043 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-05 22:38:23,795 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-05 22:38:23,864 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 62 ms. Found 8 JPA repository interfaces.
+2025-05-05 22:38:24,408 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-05-05 22:38:24,418 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-05 22:38:24,421 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-05 22:38:24,421 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-05-05 22:38:24,465 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-05 22:38:24,466 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1422 ms
+2025-05-05 22:38:24,658 INFO  [restartedMain] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-05 22:38:24,723 INFO  [restartedMain] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-05-05 22:38:24,759 INFO  [restartedMain] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-05-05 22:38:25,068 INFO  [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-05 22:38:25,100 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-05 22:38:25,478 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7d9fa10c
+2025-05-05 22:38:25,480 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-05 22:38:25,524 WARN  [restartedMain] org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-05 22:38:26,615 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-05 22:38:26,668 DEBUG [restartedMain] org.hibernate.SQL - alter table transactions modify column comment text
+2025-05-05 22:38:26,734 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-05 22:38:27,078 INFO  [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-05-05 22:38:27,604 INFO  [restartedMain] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-05-05 22:38:27,605 WARN  [restartedMain] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2025-05-05 22:38:27,836 WARN  [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-05 22:38:28,224 WARN  [restartedMain] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-05-05 22:38:28,312 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-05-05 22:38:28,330 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-05 22:38:28,346 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-05-05 22:38:28,354 INFO  [restartedMain] c.b.p.PersonalFinanceApplication - Started PersonalFinanceApplication in 5.964 seconds (process running for 6.763)
+2025-05-05 22:38:28,423 DEBUG [restartedMain] org.hibernate.SQL - select count(*) from transaction_types tt1_0
+2025-05-05 22:38:28,435 DEBUG [restartedMain] org.hibernate.SQL - select count(*) from person_types pt1_0
+2025-05-05 22:38:28,441 DEBUG [restartedMain] org.hibernate.SQL - select count(*) from person_types pt1_0
+2025-05-05 22:38:28,447 DEBUG [restartedMain] org.hibernate.SQL - select count(*) from transaction_types tt1_0
+2025-05-05 22:38:28,454 DEBUG [restartedMain] org.hibernate.SQL - select count(*) from transaction_statuses ts1_0
+2025-05-05 22:38:28,461 DEBUG [restartedMain] org.hibernate.SQL - select count(*) from banks b1_0
+2025-05-05 22:38:38,828 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-05 22:38:38,831 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-05-05 22:38:38,842 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-05-05 22:38:40,998 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-05-05 22:38:41,035 INFO  [restartedMain] c.b.p.PersonalFinanceApplication - Starting PersonalFinanceApplication using Java 23 with PID 12684 (C:\Users\Арсений\Desktop\hak\target\classes started by Arseniy in C:\Users\Арсений\Desktop\hak)
+2025-05-05 22:38:41,035 DEBUG [restartedMain] c.b.p.PersonalFinanceApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-05-05 22:38:41,036 INFO  [restartedMain] c.b.p.PersonalFinanceApplication - The following 1 profile is active: "dev"
+2025-05-05 22:38:41,084 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-05 22:38:41,084 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-05 22:38:41,739 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-05 22:38:41,797 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 52 ms. Found 8 JPA repository interfaces.
+2025-05-05 22:38:42,313 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-05-05 22:38:42,322 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-05 22:38:42,325 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-05 22:38:42,325 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-05-05 22:38:42,365 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-05 22:38:42,366 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1280 ms
+2025-05-05 22:38:42,538 INFO  [restartedMain] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-05 22:38:42,596 INFO  [restartedMain] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-05-05 22:38:42,632 INFO  [restartedMain] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-05-05 22:38:42,932 INFO  [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-05 22:38:42,962 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-05 22:38:43,333 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@43f08136
+2025-05-05 22:38:43,334 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-05 22:38:43,381 WARN  [restartedMain] org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-05 22:38:44,460 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-05 22:38:44,515 DEBUG [restartedMain] org.hibernate.SQL - alter table transactions modify column comment text
+2025-05-05 22:38:44,582 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-05 22:38:44,911 INFO  [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-05-05 22:38:45,457 INFO  [restartedMain] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-05-05 22:38:45,458 WARN  [restartedMain] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2025-05-05 22:38:45,691 WARN  [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-05 22:38:46,067 WARN  [restartedMain] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-05-05 22:38:46,151 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-05-05 22:38:46,170 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-05 22:38:46,191 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-05-05 22:38:46,199 INFO  [restartedMain] c.b.p.PersonalFinanceApplication - Started PersonalFinanceApplication in 5.704 seconds (process running for 6.64)
+2025-05-05 22:38:46,261 DEBUG [restartedMain] org.hibernate.SQL - select count(*) from person_types pt1_0
+2025-05-05 22:38:46,274 DEBUG [restartedMain] org.hibernate.SQL - select count(*) from transaction_types tt1_0
+2025-05-05 22:38:46,280 DEBUG [restartedMain] org.hibernate.SQL - select count(*) from transaction_statuses ts1_0
+2025-05-05 22:38:46,286 DEBUG [restartedMain] org.hibernate.SQL - select count(*) from banks b1_0
+2025-05-05 22:38:46,294 DEBUG [restartedMain] org.hibernate.SQL - select count(*) from transaction_types tt1_0
+2025-05-05 22:38:46,300 DEBUG [restartedMain] org.hibernate.SQL - select count(*) from person_types pt1_0
+2025-05-05 22:38:54,780 INFO  [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-05 22:38:54,780 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-05-05 22:38:54,782 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-05-05 22:38:54,913 DEBUG [http-nio-8080-exec-1] org.hibernate.SQL - select u1_0.id from users u1_0 where u1_0.username=? limit ?
+2025-05-05 22:38:55,045 DEBUG [http-nio-8080-exec-1] org.hibernate.SQL - insert into users (created_at,password,role,username) values (?,?,?,?)
+2025-05-05 22:39:13,069 DEBUG [http-nio-8080-exec-9] org.hibernate.SQL - select u1_0.id,u1_0.created_at,u1_0.password,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+2025-05-05 22:39:13,178 DEBUG [http-nio-8080-exec-9] org.hibernate.SQL - select u1_0.id,u1_0.created_at,u1_0.password,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+2025-05-05 22:40:20,491 INFO  [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 3 class path changes (0 additions, 3 deletions, 0 modifications)
+2025-05-05 22:40:20,496 INFO  [Thread-5] o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-05-05 22:40:20,512 INFO  [Thread-5] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-05 22:40:20,516 INFO  [Thread-5] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-05-05 22:40:20,528 INFO  [Thread-5] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-05-05 22:40:20,635 INFO  [restartedMain] c.b.p.PersonalFinanceApplication - Starting PersonalFinanceApplication using Java 23 with PID 12684 (C:\Users\Арсений\Desktop\hak\target\classes started by Arseniy in C:\Users\Арсений\Desktop\hak)
+2025-05-05 22:40:20,636 DEBUG [restartedMain] c.b.p.PersonalFinanceApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-05-05 22:40:20,636 INFO  [restartedMain] c.b.p.PersonalFinanceApplication - The following 1 profile is active: "dev"
+2025-05-05 22:40:20,920 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-05 22:40:20,963 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42 ms. Found 8 JPA repository interfaces.
+2025-05-05 22:40:21,123 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-05-05 22:40:21,125 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-05 22:40:21,126 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-05 22:40:21,126 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-05-05 22:40:21,155 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-05 22:40:21,155 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 517 ms
+2025-05-05 22:40:21,244 INFO  [restartedMain] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-05 22:40:21,249 INFO  [restartedMain] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-05-05 22:40:21,266 INFO  [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-05 22:40:21,267 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2025-05-05 22:40:21,310 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@304723d6
+2025-05-05 22:40:21,310 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2025-05-05 22:40:21,313 WARN  [restartedMain] org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-05 22:40:21,573 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-05 22:40:21,589 DEBUG [restartedMain] org.hibernate.SQL - alter table transactions modify column comment text
+2025-05-05 22:40:21,672 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-05 22:40:21,957 WARN  [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-05 22:40:21,966 INFO  [restartedMain] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-05-05 22:40:21,967 WARN  [restartedMain] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2025-05-05 22:40:22,132 WARN  [restartedMain] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-05-05 22:40:22,179 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-05-05 22:40:22,193 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-05 22:40:22,197 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-05-05 22:40:22,200 INFO  [restartedMain] c.b.p.PersonalFinanceApplication - Started PersonalFinanceApplication in 1.604 seconds (process running for 102.642)
+2025-05-05 22:40:22,209 DEBUG [restartedMain] org.hibernate.SQL - select count(*) from transaction_types tt1_0
+2025-05-05 22:40:22,218 DEBUG [restartedMain] org.hibernate.SQL - select count(*) from person_types pt1_0
+2025-05-05 22:40:22,225 DEBUG [restartedMain] org.hibernate.SQL - select count(*) from person_types pt1_0
+2025-05-05 22:40:22,231 DEBUG [restartedMain] org.hibernate.SQL - select count(*) from transaction_types tt1_0
+2025-05-05 22:40:22,238 DEBUG [restartedMain] org.hibernate.SQL - select count(*) from transaction_statuses ts1_0
+2025-05-05 22:40:22,244 DEBUG [restartedMain] org.hibernate.SQL - select count(*) from banks b1_0
+2025-05-05 22:40:22,252 INFO  [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged

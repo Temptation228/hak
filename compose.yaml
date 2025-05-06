@@ -1,0 +1,12 @@
+services:
+  mysql:
+    container_name: 'personal-finance-mysql'
+    image: 'mysql:latest'
+    environment:
+      - 'MYSQL_DATABASE=mydatabase'
+      - 'MYSQL_PASSWORD=secret'
+      - 'MYSQL_ROOT_PASSWORD=verysecret'
+      - 'MYSQL_USER=myuser'
+      - 'MYSQL_ROOT_HOST=localhost'
+    ports:
+      - '3306:3306'
