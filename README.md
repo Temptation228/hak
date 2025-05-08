@@ -1310,4 +1310,4 @@ Maven (сборка проекта)
 
 ## Выгрузка из БД
 
-Выгрузка из БД доступна по [ссылке](https://github.com/Temptation228/hak/files/db.sql.gz)
+Выгрузка из БД доступна по [ссылке](https://github.com/Temptation228/hak/tree/master/files/db.sql.gz)
